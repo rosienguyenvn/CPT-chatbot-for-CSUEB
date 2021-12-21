@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi, please type your question about CPT at Cal State East Bay here", "Hello, how can I help"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Thank you for reaching out. Have a nice day"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["My name is Alyne. I am a chatbot made by Rosie", "My name is Alyne ", "I am a chatbot made by Rosie. You can call me Alyne", "I am Alyne. I am a chatbot made by Rosie", "Alyne is my name. I am a chatbot made by Rosie"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about CPT at Cal State East Bay", "I can give you CPT information at Cal State East Bay"]
+      },
+     {"tag": "CPT_requirement",
+      "patterns": ["what is the requirement?", "CPT Eligibility Criteria", "What can you tell me about CPT criteria in Cal State East Bay", "Curricular Practical Training Criteria", "Tell me about CPT Criteria", "What about CPT Criteria", "What do you know about Curricular Practical Training Criteria", "Tell me more about Curricular Practical Training Criteria", "What can you tell me about Curricular Practical Training requirements", "Tell me about Curricular Practical Training requirements", "What is the CPT requirement", "What is the CPT requirement at CSUEB", "What is the CPT requirement at CSU east Bay","Tell me more about CPT Criteria"],
+      "responses": ["Eligibility Criteria: Have been lawfully enrolled on a full-time basis for one academic year unless your academic program requires immediate participation for all students. Be in lawful F-1 status. Have CSUEB approved health insurance. Have a job offer/internship offer related to your major. You must be still working towards the completion of the academic program indicated on your I-20. If you have completed all degree requirements (even if you have not filed for graduation), you are no longer eligible for CPT. You must be a student in good academic standing. If you are on Academic Probation or Disqualification, you will NOT be authorized for CPT. You must be a student in good academic standing. If you are on Academic Probation or Disqualification, you will NOT be authorized for CPT. The employment must be considered an ‘integral part’ of your academic program. You must enroll in either your academic department's Internship class or the General Studies (GS) Internship class for that semester. You must be enrolled full time or have approval for a Reduced Course Load. NOTE: CPT is processed and authorized term by term.",
+        "Please review the CPT Tutorial for information regarding CPT and the procedure to apply for CPT at CSUEB. Link: https://www.csueastbay.edu/cie/f-1-students/employment/cpt-curricular-practical-training.html"]
+      },
+      {"tag": "CPT_part_time",
+       "patterns": ["CPT part-time", "CPT parttime", "cpt par time", "what is CPT parttime", "how many hours can I work part time during CPT", "working hours CPT part-time "],
+       "responses": [
+         "Part-time CPT: Employment for 20 hours or less per week is considered part-time. While a full-time student, you will only be authorized for Part-Time CPT. This includes when you are on an approved reduced course load for any reason. Last Term is only eligible for part-time CPT."]
+      },
+      {"tag": "CPT_full_time",
+       "patterns": ["CPT fulltime", "full-time", "what is CPT full time", "how many hours can I work full time during CPT", "working hours CPT full time "],
+       "responses": [
+         "Full-time CPT: Employment for more than 20 hours per week is full-time. You are only eligible for full-time CPT during the Summer term as it is considered your annual vacation. If Summer is your last time, you are only eligible for Part-Time CPT"]
+      },
+      {"tag": "CPT_handbook",
+       "patterns": ["CPT handbook", "cpt-curricular-practical-training handbook"],
+       "responses": [
+         "More information and request form is available in the CPT Handout. https://www.csueastbay.edu/cie/files/docs/pdfs/employment-handouts/cpt-handout.pdf"]
+      },
+      {"tag": "internship",
+       "patterns": ["Review the Internships Procedure with CSUEB Internships Office","who review the internship?"],
+       "responses": ["The majority of the CPT process will be with the Internships Office and your major department. Please review the Internships website for detailed steps to complete (https://www.csueastbay.edu/internships/students.html). If you have any questions regarding these steps or CalStateS4, all questions must be directed to internships@csueastbay.edu."]
+      },
+      {"tag": "CPT_form",
+       "patterns": ["CPT request form", "cpt form", "form", "request CPT"],
+       "responses": [
+         "CPT request form is available in the CPT Handout. https://www.csueastbay.edu/cie/files/docs/pdfs/employment-handouts/cpt-handout.pdf"]
+      },
+      {"tag": "CPT_tutorial",
+       "patterns": ["CPT tutorial", "show me the steps of applying for CPT", "CPT"],
+       "responses": ["Please review the CPT Tutorial for information regarding CPT and the procedure to apply for CPT at CSUEB. https://www.csueastbay.edu/cie/files/docs/pdfs/employment-handouts/cpt-tutorial.pdf"]
+      },
+
+      {"tag": "location_duration",
+       "patterns": ["location and duration", "what is the duration of cpt", "how many semester I can do cpt", "number of semester for cpt", "cpt location", "company", "time period"],
+       "responses": ["Students may engage in CPT only for the specific company/organization, location, and time period approved and recorded on your CPT I-20 form. CPT is reviewed on a semester-by-semester basis; any training that spans multiple semesters will require separate applications for each semester. Limit: CSUEB will only authorize 3 terms of CPT during your degree program. Examples: Student 1- Spring authorization, Summer authorization, Fall authorization. Student 2- Summer authorization, Spring authorization and Summer authorization"]
+      },
+      {"tag": "CPT",
+       "patterns": ["what is cpt", "what is cpt curricular practical training", "tell me about cpt", "cpt", "cpt curricular practical training", "cpt-curricular-practical-training", "want to know more about cpt"],
+       "responses": ["Curricular Practical Training (CPT) authorization allows international students in F-1 status to pursue internships and other off-campus training or employment opportunities before completing their course of study. There must be a direct and significant link between the training opportunity and the student’s major field of study"]
+      },
+    {
+      "tag": "internship_site",
+      "patterns": [
+        "change the internship site"
+      ],
+      "responses": [
+        "The authorization you receive is company and site specific. Therefore, CIE would need to authorize new employment and notify SEVIS that you have terminated your previous employment. We will only consider this if this internship site change is approved by all parties (Cal State S4/Internships and your academic department). In addition, CIE will request written documentation from your first internship site verifying the termination date of your employment with them."]
+    },
+    {"tag": "contact",
+       "patterns": ["contact information", "talk with someone", "I still don't get what you say", "talk with someone"],
+       "responses": ["If you have any further questions, please contact Center for International Education via email: cie@csueastbay.edu"]
+      }
+       ]
+}
